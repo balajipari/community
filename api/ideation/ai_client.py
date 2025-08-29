@@ -1,7 +1,7 @@
 import json
 import requests
 from typing import Dict, Any, Optional
-from config import Config
+from .config import Config
 
 class AIClient:
     def __init__(self):

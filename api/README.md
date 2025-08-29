@@ -16,7 +16,7 @@ A CLI-based AI chat system designed to guide founders through the product ideati
 1. **Clone the repository:**
    ```bash
    git clone <your-repo-url>
-   cd ideation-bot
+   cd api
    ```
 
 2. **Install dependencies:**
@@ -103,7 +103,7 @@ The system uses a structured prompt from `system_prompt.txt` that guides the AI 
 ## Project Structure
 
 ```
-ideation-bot/
+api/
 ├── cli.py              # Main CLI interface
 ├── ai_client.py        # AI API client
 ├── config.py           # Configuration management
